@@ -9,7 +9,7 @@ node {
 
     stage('Build image') {
   
-       app = docker.build("raj80dockerid/test")
+       app = docker.build("rsoftsysadmin/argo-test")
     }
 
     stage('Test image') {
